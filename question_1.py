@@ -1,3 +1,5 @@
+# coding: utf-8
+
 number1 = 2
 number2 = 3
 number3 = 10
