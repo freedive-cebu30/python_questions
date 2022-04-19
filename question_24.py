@@ -28,7 +28,7 @@ string_list = list(filter(is_int, arr))
 print(string_list)
 
 
-# # リスト内包表記
-# # list Inclusive
+# リスト内包表記
+# list Inclusive
 string_list = [v for v in arr if is_int(v)]
 print(string_list)
