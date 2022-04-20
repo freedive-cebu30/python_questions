@@ -2,15 +2,12 @@
 
 
 import random
-
-
 # Setという概念を使えば、重複しない集合を作ることができます
 # We can create a set without repetition if we use "Set"
 res = set()
 for x in range(1, 21):
   res.add(random.randint(1, 10))
   
-
 list_res = list(res)
 list_res.sort()
 print(list_res)
