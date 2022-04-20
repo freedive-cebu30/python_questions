@@ -12,3 +12,14 @@ for person in dict_people:
     res.append(person)
 
 print(res)
+
+# リスト内包表記
+# list Inclusive
+res2 = [person for person in dict_people if 'country' in person]
+print(res2)
+
+
+# filter
+# filter and lambda
+res3 = list(filter(lambda person: 'country' in person, dict_people))
+print(res3)
