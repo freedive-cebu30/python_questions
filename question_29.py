@@ -16,7 +16,6 @@ list_res.sort()
 print(list_res)
 
 
-
 # 配列に入れる前に、既に値が入っているか確認しています
 # We check the value in Array before adding the value
 res2 = []
