@@ -17,3 +17,9 @@ print(res)
 # list Inclusive
 res2 = [person for person in dict_people if 'Japan' in person.values()]
 print(res2)
+
+
+# filter
+# filter and lambda
+res3 = list(filter(lambda person: 'Japan' in person.values(), dict_people))
+print(res3)
