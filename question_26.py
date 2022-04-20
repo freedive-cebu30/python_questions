@@ -4,8 +4,8 @@
 arr = ["Taiwan-tokyo", "Taiwan-osaka", "Taiwan-kyoto"]
 
 
-# filterとlambda式
-# filter and lambda
+# mapとlambda式
+# map and lambda
 answer1 = list(map(lambda v: v.replace('Taiwan', 'Japan'), arr))
 print(answer1)
 
