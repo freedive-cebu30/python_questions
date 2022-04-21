@@ -3,7 +3,6 @@
 
 arr = [1, "a", 2, "b", "c", 3]
 
-
 # forループ
 # for loop
 res = []
