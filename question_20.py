@@ -1,5 +1,6 @@
 # coding: utf-8
 
+
 # リスト内包表記
 # list Inclusive
 arr = [1, 2, 3, 4, 5]
